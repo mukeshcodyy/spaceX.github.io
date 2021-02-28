@@ -1,0 +1,22 @@
+.container {
+    width: 1460px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    border: 2px solid var(--pure);
+    color: var(--pure);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    transition: all .5s ease;
+    background: transparent;
+}
+
+.btn:hover {
+    color: var(--dark);
+    background: var(--pure);
+    border: 2px solid var(--gray);
+    cursor: pointer;
+}
